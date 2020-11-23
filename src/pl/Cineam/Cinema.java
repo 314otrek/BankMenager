@@ -61,7 +61,6 @@ public class Cinema {
         int row = scan.nextInt();
         System.out.println("Wybierz miejsce w rzędzie które chcesz wybrac");
         int seat  = scan.nextInt();
-        System.out.println(pow[row][seat]);
 
 
         for (int i = 0; i < rows ; i++) {

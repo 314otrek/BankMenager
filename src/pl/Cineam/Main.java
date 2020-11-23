@@ -14,7 +14,7 @@ public class Main {
             Cinema cinema  = new Cinema(7,8);
             cinema.madeRoomPlan();
             int choice=1;
-            while(choice!=0){
+            while(choice!=3){
                 System.out.println("Witaj w moim kinie. W czym moge pomoc:");
                 System.out.println("1. Wyswietl sale");
                 System.out.println("2. Zarezeruj bilet");
@@ -31,7 +31,7 @@ public class Main {
                         break;
                     case 3:
                         System.out.println("Przykro ze nas opuszczasz");
-                        choice=0;
+                        choice=3;
                         break;
                     default:
                         System.out.println("Brak takiej opcji w menu");
